@@ -1,0 +1,742 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ArchiVista — Premium 3D Building Design with ArchiCAD</title>
+  <meta name="description" content="ArchiVista delivers photorealistic 3D building designs powered by ArchiCAD BIM. From residential to commercial, we bring architectural visions to life with precision and artistry." />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏛️</text></svg>" />
+</head>
+<body>
+
+  <!-- ═══════════════ NAVIGATION ═══════════════ -->
+  <nav class="navbar" id="navbar">
+    <div class="container">
+      <a href="#" class="nav-logo">
+        <span class="nav-logo-icon">AV</span>
+        ArchiVista
+      </a>
+      <div class="nav-links" id="navLinks">
+        <a href="#services">Services</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#process">Process</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#contact" class="btn btn-primary nav-cta">Get a Quote</a>
+      </div>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ═══════════════ HERO ═══════════════ -->
+  <section class="hero" id="hero">
+    <div class="hero-bg">
+      <img src="images/hero_building.jpg" alt="Modern luxury villa 3D architectural rendering" />
+    </div>
+    <div class="hero-particles" id="heroParticles"></div>
+    <div class="container hero-content">
+      <div class="hero-badge">
+        <span class="hero-badge-dot"></span>
+        Powered by ArchiCAD BIM Technology
+      </div>
+      <h1 class="hero-title">
+        We Design Buildings<br>
+        <span class="text-gradient">In Stunning 3D</span>
+      </h1>
+      <p class="hero-description">
+        Transform your architectural vision into photorealistic 3D masterpieces. Our ArchiCAD-powered design studio delivers precision BIM models, immersive walkthroughs, and construction-ready documentation.
+      </p>
+      <div class="hero-actions">
+        <a href="#contact" class="btn btn-primary">
+          Start Your Project
+          <span class="btn-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+          </span>
+        </a>
+        <a href="#portfolio" class="btn btn-secondary">View Our Work</a>
+      </div>
+      <div class="hero-stats">
+        <div class="hero-stat">
+          <div class="hero-stat-number" data-count="350">0</div>
+          <div class="hero-stat-label">Projects Delivered</div>
+        </div>
+        <div class="hero-stat">
+          <div class="hero-stat-number" data-count="12">0</div>
+          <div class="hero-stat-label">Years Experience</div>
+        </div>
+        <div class="hero-stat">
+          <div class="hero-stat-number" data-count="98">0</div>
+          <div class="hero-stat-label">% Client Satisfaction</div>
+        </div>
+      </div>
+    </div>
+    <div class="hero-scroll-indicator">
+      <div class="scroll-mouse"></div>
+      <span class="scroll-text">Scroll</span>
+    </div>
+  </section>
+
+  <!-- ═══════════════ SERVICES ═══════════════ -->
+  <section class="services section-padding" id="services">
+    <div class="container">
+      <div class="services-header reveal">
+        <span class="section-label">What We Offer</span>
+        <h2 class="section-title">Comprehensive 3D<br><span class="text-gradient">Design Services</span></h2>
+        <p class="section-subtitle">From concept sketches to construction-ready BIM models, we cover every stage of architectural visualization with unmatched precision.</p>
+      </div>
+
+      <div class="services-grid">
+        <!-- Service 1 -->
+        <div class="service-card reveal reveal-delay-1">
+          <div class="service-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-4 0a1 1 0 01-1-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 01-1 1"/></svg>
+          </div>
+          <h3 class="service-title">3D BIM Modeling</h3>
+          <p class="service-desc">Full Building Information Models in ArchiCAD with intelligent objects, parametric components, and accurate material assignments.</p>
+          <div class="service-features">
+            <div class="service-feature">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+              <span>LOD 100-400 BIM models</span>
+            </div>
+            <div class="service-feature">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+              <span>IFC & Open BIM compliant</span>
+            </div>
+            <div class="service-feature">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+              <span>Clash detection included</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Service 2 -->
+        <div class="service-card reveal reveal-delay-2">
+          <div class="service-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8"/><path d="M12 17v4"/><circle cx="12" cy="10" r="3"/></svg>
+          </div>
+          <h3 class="service-title">Photorealistic Rendering</h3>
+          <p class="service-desc">Cinema-quality exterior and interior visualizations with advanced lighting, materials, and environmental effects that wow clients.</p>
+          <div class="service-features">
+            <div class="service-feature">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+              <span>4K+ resolution renders</span>
+            </div>
+            <div class="service-feature">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+              <span>Day & night scenes</span>
+            </div>
+            <div class="service-feature">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+              <span>Aerial & street views</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Service 3 -->
+        <div class="service-card reveal reveal-delay-3">
+          <div class="service-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="23 7 16 12 23 17 23 7"/><rect x="1" y="5" width="15" height="14" rx="2"/></svg>
+          </div>
+          <h3 class="service-title">3D Walkthroughs</h3>
+          <p class="service-desc">Immersive animated walkthroughs and fly-throughs that let clients experience the space before a single brick is laid.</p>
+          <div class="service-features">
+            <div class="service-feature">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+              <span>Cinematic animations</span>
+            </div>
+            <div class="service-feature">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+              <span>360° VR experiences</span>
+            </div>
+            <div class="service-feature">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+              <span>BIMx interactive models</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Service 4 -->
+        <div class="service-card reveal reveal-delay-1">
+          <div class="service-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>
+          </div>
+          <h3 class="service-title">Construction Docs</h3>
+          <p class="service-desc">Auto-generated floor plans, sections, elevations, and detail drawings — all directly from the live ArchiCAD model.</p>
+          <div class="service-features">
+            <div class="service-feature">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+              <span>Auto-updating drawings</span>
+            </div>
+            <div class="service-feature">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+              <span>Quantity takeoffs</span>
+            </div>
+            <div class="service-feature">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+              <span>PDF & DWG export</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Service 5 -->
+        <div class="service-card reveal reveal-delay-2">
+          <div class="service-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="M9 12l2 2 4-4"/></svg>
+          </div>
+          <h3 class="service-title">Design Consultation</h3>
+          <p class="service-desc">Expert architectural guidance from concept through permit. We optimize layouts, energy efficiency, and compliance with local codes.</p>
+          <div class="service-features">
+            <div class="service-feature">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+              <span>Site & zoning analysis</span>
+            </div>
+            <div class="service-feature">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+              <span>Energy modeling</span>
+            </div>
+            <div class="service-feature">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+              <span>Permit-ready packages</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Service 6 -->
+        <div class="service-card reveal reveal-delay-3">
+          <div class="service-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>
+          </div>
+          <h3 class="service-title">Interior Visualization</h3>
+          <p class="service-desc">Stunning interior design renderings with custom furniture, finishes, and lighting that bring spaces to life before construction begins.</p>
+          <div class="service-features">
+            <div class="service-feature">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+              <span>Material & finish library</span>
+            </div>
+            <div class="service-feature">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+              <span>Furniture placement</span>
+            </div>
+            <div class="service-feature">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+              <span>Lighting simulation</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════ PORTFOLIO ═══════════════ -->
+  <section class="portfolio section-padding" id="portfolio">
+    <div class="container">
+      <div class="portfolio-header reveal">
+        <div>
+          <span class="section-label">Our Work</span>
+          <h2 class="section-title">Featured <span class="text-gradient">Projects</span></h2>
+          <p class="section-subtitle">A curated selection of recent 3D designs delivered to architects, developers, and homeowners worldwide.</p>
+        </div>
+        <a href="#contact" class="btn btn-secondary">View All Projects</a>
+      </div>
+
+      <div class="portfolio-grid">
+        <div class="portfolio-item reveal reveal-delay-1">
+          <img src="images/hero_building.jpg" alt="Luxury coastal villa 3D rendering" />
+          <div class="portfolio-overlay">
+            <span class="portfolio-tag">Residential</span>
+            <h3 class="portfolio-item-title">Coastal Luxury Villa</h3>
+            <p class="portfolio-item-desc">Mediterranean hillside residence — 5,200 sq ft</p>
+          </div>
+        </div>
+
+        <div class="portfolio-item reveal reveal-delay-2">
+          <img src="images/project_commercial.jpg" alt="Commercial office tower 3D rendering" />
+          <div class="portfolio-overlay">
+            <span class="portfolio-tag">Commercial</span>
+            <h3 class="portfolio-item-title">Vista Tower Office Complex</h3>
+            <p class="portfolio-item-desc">10-story Class A office with rooftop terrace</p>
+          </div>
+        </div>
+
+        <div class="portfolio-item reveal reveal-delay-3">
+          <img src="images/project_interior.jpg" alt="Modern interior design 3D rendering" />
+          <div class="portfolio-overlay">
+            <span class="portfolio-tag">Interior</span>
+            <h3 class="portfolio-item-title">Modern Residence Interior</h3>
+            <p class="portfolio-item-desc">Open-concept living with biophilic design</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════ PROCESS ═══════════════ -->
+  <section class="process section-padding" id="process">
+    <div class="container">
+      <div class="process-header reveal">
+        <span class="section-label">How It Works</span>
+        <h2 class="section-title">Our Design <span class="text-gradient">Process</span></h2>
+        <p class="section-subtitle">A streamlined workflow that takes your project from napkin sketch to photorealistic 3D reality.</p>
+      </div>
+
+      <div class="process-timeline reveal">
+        <div class="process-step">
+          <div class="process-number">01</div>
+          <h3 class="process-step-title">Discovery</h3>
+          <p class="process-step-desc">We study your brief, site plans, and inspiration. Every project starts with understanding your vision.</p>
+        </div>
+        <div class="process-step">
+          <div class="process-number">02</div>
+          <h3 class="process-step-title">3D Modeling</h3>
+          <p class="process-step-desc">Your design takes shape in ArchiCAD with intelligent BIM objects, accurate dimensions, and real materials.</p>
+        </div>
+        <div class="process-step">
+          <div class="process-number">03</div>
+          <h3 class="process-step-title">Visualization</h3>
+          <p class="process-step-desc">Photorealistic renders, walkthroughs, and interactive BIMx models are produced for client review.</p>
+        </div>
+        <div class="process-step">
+          <div class="process-number">04</div>
+          <h3 class="process-step-title">Delivery</h3>
+          <p class="process-step-desc">Final models, renders, and construction documentation are delivered in your preferred formats.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════ WHY US ═══════════════ -->
+  <section class="why-us section-padding" id="why-us">
+    <div class="container">
+      <div class="why-us-grid">
+        <div class="why-us-content reveal">
+          <span class="section-label">Why ArchiVista</span>
+          <h2 class="section-title">Built on <span class="text-gradient">ArchiCAD Excellence</span></h2>
+          <p class="section-subtitle">We don't just model buildings — we engineer digital twins that drive smarter decisions across the entire project lifecycle.</p>
+          <div class="why-us-features">
+            <div class="why-us-feature">
+              <div class="why-us-feature-icon">🏗️</div>
+              <div>
+                <h4 class="why-us-feature-title">Native ArchiCAD BIM</h4>
+                <p class="why-us-feature-desc">Full parametric modeling with Graphisoft's industry-leading platform. Every element is intelligent and editable.</p>
+              </div>
+            </div>
+            <div class="why-us-feature">
+              <div class="why-us-feature-icon">⚡</div>
+              <div>
+                <h4 class="why-us-feature-title">Rapid Turnaround</h4>
+                <p class="why-us-feature-desc">Our optimized workflows deliver initial 3D concepts within 5 business days. Full models in 2-3 weeks.</p>
+              </div>
+            </div>
+            <div class="why-us-feature">
+              <div class="why-us-feature-icon">🔄</div>
+              <div>
+                <h4 class="why-us-feature-title">Open BIM Workflow</h4>
+                <p class="why-us-feature-desc">IFC-certified exports for seamless collaboration with Revit, Tekla, and other platforms your team uses.</p>
+              </div>
+            </div>
+            <div class="why-us-feature">
+              <div class="why-us-feature-icon">🎯</div>
+              <div>
+                <h4 class="why-us-feature-title">Unlimited Revisions</h4>
+                <p class="why-us-feature-desc">We iterate until you're thrilled. Every plan includes generous revision rounds at no extra charge.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="why-us-visual reveal reveal-delay-2">
+          <img src="images/project_apartment.jpg" alt="Mixed-use apartment complex 3D rendering" />
+          <div class="stat-card-float">
+            <div>
+              <div class="stat-card-float-number">98%</div>
+              <div class="stat-card-float-label">On-time delivery</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════ TESTIMONIALS ═══════════════ -->
+  <section class="testimonials section-padding" id="testimonials">
+    <div class="container">
+      <div class="testimonials-header reveal">
+        <span class="section-label">Client Voices</span>
+        <h2 class="section-title">Trusted by <span class="text-gradient">Industry Leaders</span></h2>
+        <p class="section-subtitle">Hear what architects, developers, and homeowners say about working with ArchiVista.</p>
+      </div>
+
+      <div class="testimonials-grid">
+        <div class="testimonial-card reveal reveal-delay-1">
+          <div class="testimonial-stars">
+            <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          </div>
+          <p class="testimonial-quote">"ArchiVista's 3D models were so accurate that our contractor used them as the primary reference on-site. The BIMx walkthroughs sold our client on the project before ground was broken."</p>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar">RK</div>
+            <div>
+              <div class="testimonial-name">Rajesh Kumar</div>
+              <div class="testimonial-role">Principal Architect, Studio RK Associates</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card reveal reveal-delay-2">
+          <div class="testimonial-stars">
+            <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          </div>
+          <p class="testimonial-quote">"We've worked with many visualization firms, but ArchiVista's attention to detail is unmatched. The renders looked like photographs — our investors were blown away."</p>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar">SP</div>
+            <div>
+              <div class="testimonial-name">Sarah Patterson</div>
+              <div class="testimonial-role">VP Development, Horizon Properties</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card reveal reveal-delay-3">
+          <div class="testimonial-stars">
+            <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          </div>
+          <p class="testimonial-quote">"As a first-time homeowner building our dream home, the 3D model let us make confident decisions about layout, windows, and finishes. Worth every penny."</p>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar">AM</div>
+            <div>
+              <div class="testimonial-name">Anika Mehta</div>
+              <div class="testimonial-role">Homeowner, Custom Residence Project</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════ PRICING ═══════════════ -->
+  <section class="pricing section-padding" id="pricing">
+    <div class="container">
+      <div class="pricing-header reveal">
+        <span class="section-label">Pricing</span>
+        <h2 class="section-title">Transparent <span class="text-gradient">Investment Plans</span></h2>
+        <p class="section-subtitle">Clear, fixed pricing for every project size. No hidden fees, no surprises — just exceptional 3D design.</p>
+      </div>
+
+      <div class="pricing-grid">
+        <!-- Starter -->
+        <div class="pricing-card reveal reveal-delay-1">
+          <div class="pricing-plan">Starter</div>
+          <p class="pricing-desc">Perfect for individual homes and small renovations</p>
+          <div class="pricing-price">
+            <span class="pricing-currency">$</span>
+            <span class="pricing-amount">1,500</span>
+            <span class="pricing-period">/ project</span>
+          </div>
+          <hr class="pricing-divider" />
+          <div class="pricing-features">
+            <div class="pricing-feature">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+              <span>Up to 2,500 sq ft</span>
+            </div>
+            <div class="pricing-feature">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+              <span>3D BIM model (ArchiCAD)</span>
+            </div>
+            <div class="pricing-feature">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+              <span>5 photorealistic renders</span>
+            </div>
+            <div class="pricing-feature">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+              <span>Floor plans & elevations</span>
+            </div>
+            <div class="pricing-feature">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+              <span>2 revision rounds</span>
+            </div>
+          </div>
+          <a href="#contact" class="btn btn-secondary">Get Started</a>
+        </div>
+
+        <!-- Professional -->
+        <div class="pricing-card featured reveal reveal-delay-2">
+          <span class="pricing-popular">Most Popular</span>
+          <div class="pricing-plan">Professional</div>
+          <p class="pricing-desc">Ideal for multi-story residences and commercial projects</p>
+          <div class="pricing-price">
+            <span class="pricing-currency">$</span>
+            <span class="pricing-amount">4,500</span>
+            <span class="pricing-period">/ project</span>
+          </div>
+          <hr class="pricing-divider" />
+          <div class="pricing-features">
+            <div class="pricing-feature">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+              <span>Up to 10,000 sq ft</span>
+            </div>
+            <div class="pricing-feature">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+              <span>Detailed BIM model (LOD 300)</span>
+            </div>
+            <div class="pricing-feature">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+              <span>15 photorealistic renders</span>
+            </div>
+            <div class="pricing-feature">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+              <span>Animated walkthrough (60s)</span>
+            </div>
+            <div class="pricing-feature">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+              <span>BIMx interactive model</span>
+            </div>
+            <div class="pricing-feature">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+              <span>Construction documents</span>
+            </div>
+            <div class="pricing-feature">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+              <span>5 revision rounds</span>
+            </div>
+          </div>
+          <a href="#contact" class="btn btn-primary">Get Started</a>
+        </div>
+
+        <!-- Enterprise -->
+        <div class="pricing-card reveal reveal-delay-3">
+          <div class="pricing-plan">Enterprise</div>
+          <p class="pricing-desc">For large-scale developments and ongoing partnerships</p>
+          <div class="pricing-price">
+            <span class="pricing-currency">$</span>
+            <span class="pricing-amount">12,000</span>
+            <span class="pricing-period">/ project</span>
+          </div>
+          <hr class="pricing-divider" />
+          <div class="pricing-features">
+            <div class="pricing-feature">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+              <span>Unlimited sq ft</span>
+            </div>
+            <div class="pricing-feature">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+              <span>Full BIM model (LOD 400)</span>
+            </div>
+            <div class="pricing-feature">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+              <span>Unlimited renders</span>
+            </div>
+            <div class="pricing-feature">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+              <span>VR / 360° experience</span>
+            </div>
+            <div class="pricing-feature">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+              <span>Full construction package</span>
+            </div>
+            <div class="pricing-feature">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+              <span>Dedicated project manager</span>
+            </div>
+            <div class="pricing-feature">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+              <span>Unlimited revisions</span>
+            </div>
+          </div>
+          <a href="#contact" class="btn btn-secondary">Contact Us</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════ CTA ═══════════════ -->
+  <section class="cta section-padding" id="contact">
+    <div class="container">
+      <div class="cta-inner">
+        <div class="cta-content">
+          <span class="section-label">Ready to Build?</span>
+          <h2 class="cta-title">Let's Bring Your<br><span class="text-gradient">Vision to Life</span></h2>
+          <p class="cta-description">Share your architectural dream with us. Whether it's a cozy home or a sprawling commercial complex, our ArchiCAD experts are ready to design it in breathtaking 3D.</p>
+          <div class="cta-actions">
+            <a href="mailto:hello@archivista.com" class="btn btn-primary">
+              Get Your Free Consultation
+              <span class="btn-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+              </span>
+            </a>
+            <a href="tel:+1234567890" class="btn btn-secondary">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              Call Us Today
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════ FOOTER ═══════════════ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <a href="#" class="nav-logo">
+            <span class="nav-logo-icon">AV</span>
+            ArchiVista
+          </a>
+          <p class="footer-brand-desc">Premium 3D architectural design powered by ArchiCAD BIM technology. Transforming visions into photorealistic digital masterpieces since 2014.</p>
+          <div class="footer-socials">
+            <a href="#" class="footer-social" aria-label="LinkedIn">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+            </a>
+            <a href="#" class="footer-social" aria-label="Instagram">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+            </a>
+            <a href="#" class="footer-social" aria-label="Twitter / X">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+            </a>
+            <a href="#" class="footer-social" aria-label="YouTube">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+            </a>
+          </div>
+        </div>
+        <div>
+          <h4 class="footer-heading">Services</h4>
+          <div class="footer-links">
+            <a href="#services">3D BIM Modeling</a>
+            <a href="#services">Photorealistic Renders</a>
+            <a href="#services">3D Walkthroughs</a>
+            <a href="#services">Construction Docs</a>
+            <a href="#services">Interior Design</a>
+          </div>
+        </div>
+        <div>
+          <h4 class="footer-heading">Company</h4>
+          <div class="footer-links">
+            <a href="#">About Us</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#">Careers</a>
+            <a href="#">Blog</a>
+            <a href="#contact">Contact</a>
+          </div>
+        </div>
+        <div>
+          <h4 class="footer-heading">Contact</h4>
+          <div class="footer-links">
+            <a href="mailto:hello@archivista.com">hello@archivista.com</a>
+            <a href="tel:+1234567890">+1 (234) 567-890</a>
+            <a href="#">123 Design Avenue,<br>Suite 400, New York, NY</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p class="footer-copyright">&copy; 2026 ArchiVista. All rights reserved.</p>
+        <div class="footer-legal">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ═══════════════ JAVASCRIPT ═══════════════ -->
+  <script>
+    // ── Navbar scroll effect ──
+    const navbar = document.getElementById('navbar');
+    window.addEventListener('scroll', () => {
+      navbar.classList.toggle('scrolled', window.scrollY > 60);
+    });
+
+    // ── Mobile nav toggle ──
+    const navToggle = document.getElementById('navToggle');
+    const navLinks = document.getElementById('navLinks');
+    navToggle.addEventListener('click', () => {
+      navToggle.classList.toggle('active');
+      navLinks.classList.toggle('active');
+    });
+    navLinks.querySelectorAll('a').forEach(link => {
+      link.addEventListener('click', () => {
+        navToggle.classList.remove('active');
+        navLinks.classList.remove('active');
+      });
+    });
+
+    // ── Hero particles ──
+    const particlesContainer = document.getElementById('heroParticles');
+    for (let i = 0; i < 30; i++) {
+      const p = document.createElement('div');
+      p.classList.add('particle');
+      p.style.left = Math.random() * 100 + '%';
+      p.style.top = Math.random() * 100 + '%';
+      p.style.animationDelay = Math.random() * 8 + 's';
+      p.style.animationDuration = (6 + Math.random() * 6) + 's';
+      particlesContainer.appendChild(p);
+    }
+
+    // ── Counter animation ──
+    function animateCounters() {
+      document.querySelectorAll('[data-count]').forEach(el => {
+        const target = +el.dataset.count;
+        const duration = 2000;
+        const step = target / (duration / 16);
+        let current = 0;
+        const timer = setInterval(() => {
+          current += step;
+          if (current >= target) {
+            current = target;
+            clearInterval(timer);
+          }
+          el.textContent = Math.floor(current) + (target > 50 && target < 100 ? '%' : target >= 100 ? '+' : '+');
+        }, 16);
+      });
+    }
+
+    // ── Scroll reveal ──
+    const revealElements = document.querySelectorAll('.reveal');
+    const revealObserver = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+          revealObserver.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.1, rootMargin: '0px 0px -50px 0px' });
+
+    revealElements.forEach(el => revealObserver.observe(el));
+
+    // ── Counter trigger ──
+    const heroSection = document.getElementById('hero');
+    let counterStarted = false;
+    const counterObserver = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting && !counterStarted) {
+          counterStarted = true;
+          setTimeout(animateCounters, 600);
+        }
+      });
+    }, { threshold: 0.3 });
+    counterObserver.observe(heroSection);
+
+    // ── Smooth scroll for anchor links ──
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        const target = document.querySelector(this.getAttribute('href'));
+        if (target) {
+          e.preventDefault();
+          target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+      });
+    });
+  </script>
+</body>
+</html>
